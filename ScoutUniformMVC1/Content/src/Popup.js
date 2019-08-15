@@ -36,7 +36,7 @@ class Popup extends React.Component {
         return (React.createElement("div", { className: 'popup' },
             React.createElement("div", { className: 'popup_inner' },
                 React.createElement("div", { style: { height: '35px', fontSize: '18' } },
-                    React.createElement("b", null, "Order from Online-store \"\u041E\u0434\u043D\u043E\u0441\u0442\u0440\u0456\u0439\""),
+                    React.createElement("b", null, "Order from Online-store \"\u041F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 \u041E\u0434\u043D\u043E\u0441\u0442\u0440\u0456\u0439\""),
                     React.createElement("hr", null)),
                 React.createElement("div", { className: 'foodList' }, myItems),
                 React.createElement("div", { style: { height: '35px' } },

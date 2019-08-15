@@ -47,7 +47,7 @@ export class Popup extends React.Component<any, any> {
           <div className='popup'>
             <div className='popup_inner'>
               <div style={{height:'35px', fontSize:'18'}}>              
-                        <b>Order from Online-store "Однострій"</b><hr />
+                        <b>Order from Online-store "Правильний Однострій"</b><hr />
               </div>
 
               <div className='foodList'>{myItems}</div>

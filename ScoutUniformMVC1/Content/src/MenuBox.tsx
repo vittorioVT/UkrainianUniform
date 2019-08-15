@@ -147,7 +147,7 @@ export class MenuBox extends React.Component<any, IAppState> {
         var menu = document.getElementById("dvmenu");
 
         if (this.state.orderPlaced)
-            cart.innerHTML = '<div class="orderPlaced">Order Placed successfully</div>';
+            cart.innerHTML = '<div class="orderPlaced">Дякуємо. Ваше замовлення успішно відправлене. Протягом 24 годин ми з Вами зв\'яжемося</div>';
 
         if (this.state.userId < 1) {
             myItems = null;
