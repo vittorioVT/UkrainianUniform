@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="title-big shapca">
+    <img src="/Img/shapka_04.png" style="width:100%; height: 150px" />
+    
+</div>
+<div class="navbar">
+    <div class="container">
+        <div class="navbar" id="container2">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="container3">
+            <div class="navbar-collapse collapse" id="menu2">
+                <ul class="nav navbar-nav">
+                    <li id="buttonMenu2">@Html.ActionLink("Одяг для хлопців", "Index", "Home")</li>
+                    <li id="buttonMenu2">@Html.ActionLink("Одяг для дівчат", "About", "Home")</li>
+                    <li id="buttonMenu2">@Html.ActionLink("Пластові аксесуари", "Contact", "Home")</li>
+                    <li id="buttonMenu2">@Html.ActionLink("Пластові відзнаки", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div id="foodorder">
+    </div>
+</div>
+
+<script src="~/dist/bundle.js"></script>
