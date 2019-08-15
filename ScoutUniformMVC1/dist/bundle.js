@@ -228,9 +228,9 @@ class MenuBox extends React.Component {
         if (total > 0)
             totalAndContinueLink =
                 React.createElement("div", { className: "grandTotal cartNotEmpty" },
-                    "Grand Total: $",
+                    "\u0417\u0430\u0433\u0430\u043B\u044C\u043D\u0430 \u0441\u0443\u043C\u0430: $",
                     total,
-                    React.createElement("button", { className: "greenBtn continueOrder", onClick: this.continueOrder.bind(this) }, "Continue Order"));
+                    React.createElement("button", { className: "greenBtn continueOrder", onClick: this.continueOrder.bind(this) }, "\u041F\u0440\u043E\u0434\u043E\u0432\u0436\u0438\u0442\u0438"));
         var cart = document.getElementById("dvcart");
         var menu = document.getElementById("dvmenu");
         if (this.state.orderPlaced)
@@ -309,7 +309,7 @@ class Popup extends React.Component {
         return (React.createElement("div", { className: 'popup' },
             React.createElement("div", { className: 'popup_inner' },
                 React.createElement("div", { style: { height: '35px', fontSize: '18' } },
-                    React.createElement("b", null, "Order from Online-store \"\u041F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 \u041E\u0434\u043D\u043E\u0441\u0442\u0440\u0456\u0439\""),
+                    React.createElement("b", null, "\u0417\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F \u0432 \u043E\u043D\u043B\u0430\u0439\u043D-\u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0456 \"\u041F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u0438\u0439 \u041E\u0434\u043D\u043E\u0441\u0442\u0440\u0456\u0439\""),
                     React.createElement("hr", null)),
                 React.createElement("div", { className: 'foodList' }, myItems),
                 React.createElement("div", { style: { height: '35px' } },
@@ -320,12 +320,11 @@ class Popup extends React.Component {
                 React.createElement("div", { className: 'grandSum' },
                     "Grand Total: $",
                     (Math.round(total * 100) / 100).toFixed(2)),
-                React.createElement("div", { className: 'payment' }, "Payment:  [Cedit Card on file will be Charged!]"),
-                React.createElement("div", { style: { height: '20px' } }, "Deliver to: [address on file]"),
-                React.createElement("div", { className: 'delivEstimate' }, "Delivery estimates: 20 - 40 minutes"),
+                React.createElement("div", { className: 'payment' }),
+                React.createElement("div", { className: 'delivEstimate' }),
                 React.createElement("div", { style: { bottom: '11px' } },
-                    React.createElement("button", { className: "greenBtn a_left", onClick: this.placeOrder }, "Submit Order"),
-                    React.createElement("button", { className: "greenBtn a_right", onClick: this.closePopup }, "Back")))));
+                    React.createElement("button", { className: "greenBtn a_left", onClick: this.placeOrder }, "\u041F\u0456\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0438 \u0417\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F"),
+                    React.createElement("button", { className: "greenBtn a_right", onClick: this.closePopup }, "\u041F\u043E\u0432\u0435\u0440\u043D\u0443\u0442\u0438\u0441\u044F")))));
     }
 }
 exports.Popup = Popup;

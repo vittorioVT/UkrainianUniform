@@ -47,7 +47,7 @@ export class Popup extends React.Component<any, any> {
           <div className='popup'>
             <div className='popup_inner'>
               <div style={{height:'35px', fontSize:'18'}}>              
-                        <b>Order from Online-store "Правильний Однострій"</b><hr />
+                        <b>Замовлення в онлайн-магазині "Правильний Однострій"</b><hr />
               </div>
 
               <div className='foodList'>{myItems}</div>
@@ -62,15 +62,13 @@ export class Popup extends React.Component<any, any> {
               <div className='grandSum'>
                    Grand Total: ${(Math.round(total  * 100) / 100).toFixed(2) } 
               </div>
-
-              <div className='payment'>Payment:  [Cedit Card on file will be Charged!]</div>
-
-              <div style={{ height: '20px' }}>Deliver to: [address on file]</div> 
-              <div className='delivEstimate'>Delivery estimates: 20 - 40 minutes</div>
-
+                    
+              <div className='payment'></div>
+              <div className='delivEstimate'></div>
+              
               <div style={{bottom:'11px'}}>
-                <button className="greenBtn a_left" onClick={this.placeOrder}>Submit Order</button>
-                <button className="greenBtn a_right"onClick={this.closePopup}>Back</button>
+                <button className="greenBtn a_left" onClick={this.placeOrder}>Підтвердити Замовлення</button>
+                <button className="greenBtn a_right"onClick={this.closePopup}>Повернутися</button>
               </div>
 
             </div>

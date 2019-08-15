@@ -137,9 +137,9 @@ export class MenuBox extends React.Component<any, IAppState> {
         var totalAndContinueLink = <div className="grandTotal cartEmpty">Cart Empty!</div>;
         if (total > 0)
             totalAndContinueLink =
-                <div className="grandTotal cartNotEmpty">Grand Total: ${total}
+                <div className="grandTotal cartNotEmpty">Загальна сума: ${total}
                 <button className="greenBtn continueOrder" onClick={this.continueOrder.bind(this)}>
-                    Continue Order
+                    Продовжити
                 </button>
                 </div>;
 

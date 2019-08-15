@@ -132,9 +132,9 @@ class MenuBox extends React.Component {
         if (total > 0)
             totalAndContinueLink =
                 React.createElement("div", { className: "grandTotal cartNotEmpty" },
-                    "Grand Total: $",
+                    "\u0417\u0430\u0433\u0430\u043B\u044C\u043D\u0430 \u0441\u0443\u043C\u0430: $",
                     total,
-                    React.createElement("button", { className: "greenBtn continueOrder", onClick: this.continueOrder.bind(this) }, "Continue Order"));
+                    React.createElement("button", { className: "greenBtn continueOrder", onClick: this.continueOrder.bind(this) }, "\u041F\u0440\u043E\u0434\u043E\u0432\u0436\u0438\u0442\u0438"));
         var cart = document.getElementById("dvcart");
         var menu = document.getElementById("dvmenu");
         if (this.state.orderPlaced)

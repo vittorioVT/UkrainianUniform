@@ -18,9 +18,11 @@
 }
 
 .grandTotal {
-	height: 85px;
-	background-color: #ddd;
-	padding: 5px;
+    height: 50px;
+    background-color: #69854c;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px;
 }
 .orderPlaced{
 	height: 38px;
@@ -57,10 +59,10 @@
 @media (min-width: 401px) {
     #dvcart {
         flex: 1;
-        border: 1px #ccc solid;
-        background-color: aliceblue;
+        border: 1px #69854c solid;
+        background-color: #ffff66;
         /*padding:10px;*/
-        height: 360px;
+        height: 335px;
         width: 285px;
         margin-top: 0;
         position: fixed;
@@ -79,22 +81,22 @@
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
-	#dvcart {
-		flex: 1;
-		border: 1px #ccc solid;
-		width: 100%;
-		margin: 0;
-		/*padding: 65px 10px 5px 10px;*/
-		position: fixed;
-		bottom: -2px;
-		right: 0;
-	}
-	#cartContent {
-		display:none;
-		background-color:aliceblue;
-		height: 200px;
-		overflow-y: scroll;
-	}
+    #dvcart {
+        flex: 1;
+        border: 1px #69854c solid;
+        width: 100%;
+        margin: 0;
+        /*padding: 65px 10px 5px 10px;*/
+        position: fixed;
+        bottom: -2px;
+        right: 0;
+    }
+    #cartContent {
+        display: none;
+        background-color: #ffff66;
+        height: 200px;
+        overflow-y: scroll;
+    }
 
 	.smartButton {
 		display:inline-block;
@@ -153,14 +155,16 @@
 		border-radius: 5px 5px;
 	}
 
-	.greenBtn {
-	border: 1px solid rgb(67, 164, 34);
-	background: rgb(67, 164, 34);
-	color: #fff;
-	width: 200px;
-	height: 50px;
-	border-radius: 5px 5px;
-}
+    .greenBtn {
+        border: 1px solid #69854c;
+        background: #69854c;
+        color: #fff;
+        font-weight: bold;
+        width: 200px;
+        height: 50px;
+        border-radius: 5px 5px;
+        margin-top: 40px;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
@@ -170,21 +174,25 @@
 		height: 100%;
 		width: 100%;	
 	}
-		.greenBtn {
-		border: 1px solid rgb(67, 164, 34);
-		background: rgb(67, 164, 34);
-		color: #fff;
-		width: 150px;
-		height: 40px;
-		border-radius: 5px 5px;
-	}
+    .greenBtn {
+        border: 1px solid #69854c;
+        background-color: #69854c;
+        color: #fff;
+        font-weight: bold;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px 5px;
+        margin-top: 40px;
+    }
 }
  
 .continueOrder {
-	width: 150px !important;
+	width: 100px !important;
 	height: 30px !important;
-	margin-left: 5px;
-	margin-top: 25px;
+	margin-left: 25px;
+	margin-top: 10px;
+    padding: 3px;
+    background-color: #8cb266;
 }
 
 .a_right {
@@ -200,21 +208,20 @@
 .grandSum {
 	font-size:16px;
 	font-weight:bold;
-	background-color:blue;
+	background-color:#69854c;
 	text-align:right;
 	color:#fff;
-	padding:3px;
+	padding:2px;
 	height:23px;
 }
 .payment {
 	font-size:12px;
-	background-color:#ddd;
+	background-color:#ffff66;
 	text-align:right;
 	color:#000;
 	padding:3px;
 	height:23px;
 }
 .delivEstimate {
-	color:red;
 	margin-bottom: 5px;
 }
