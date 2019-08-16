@@ -24,16 +24,16 @@
     font-weight: bold;
     padding: 3px;
 }
-.orderPlaced{
-	height: 38px;
-	background-color: #ddd;
-	padding: 5px;
-	color:green; 
-	font-size:25px;
+.orderPlaced {
+    height: 38px;
+    background-color: #69854c;
+    padding: 10px;
+    color: green;
+    font-size: 25px;
 }
-.cartEmpty
-{
-	text-align:center;
+
+.cartEmpty {
+    text-align: center;
 }
 
 .cartNotEmpty
