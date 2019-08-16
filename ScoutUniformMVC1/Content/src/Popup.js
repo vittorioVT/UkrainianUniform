@@ -30,7 +30,7 @@ class Popup extends React.Component {
             total += menu.Price * menu.Quantity;
             return (React.createElement("div", { key: menu.Id },
                 menu.Name,
-                ", Qty: ",
+                ", \u043A\u0456\u043B\u044C\u043A\u0456\u0441\u0442\u044C: ",
                 menu.Quantity));
         }, this);
         return (React.createElement("div", { className: 'popup' },
@@ -41,11 +41,11 @@ class Popup extends React.Component {
                 React.createElement("div", { className: 'foodList' }, myItems),
                 React.createElement("div", { style: { height: '35px' } },
                     React.createElement("hr", null),
-                    "Total = $",
+                    "\u0417\u0430\u0433\u0430\u043B\u044C\u043D\u0430 \u0441\u0443\u043C\u0430 = $",
                     (Math.round(total * 100) / 100).toFixed(2)),
-                React.createElement("div", { style: { height: '25px' } }, "Tax = 0"),
+                React.createElement("div", { style: { height: '25px' } }, "\u041F\u043E\u0434\u0430\u0442\u043A\u0438 = 0"),
                 React.createElement("div", { className: 'grandSum' },
-                    "Grand Total: $",
+                    "\u0421\u0443\u043C\u0430 \u0434\u043E \u0441\u043F\u043B\u0430\u0442\u0438: $",
                     (Math.round(total * 100) / 100).toFixed(2)),
                 React.createElement("div", { className: 'payment' }),
                 React.createElement("div", { className: 'delivEstimate' }),

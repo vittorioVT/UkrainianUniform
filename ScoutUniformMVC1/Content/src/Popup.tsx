@@ -38,7 +38,7 @@ export class Popup extends React.Component<any, any> {
 		    total += menu.Price * menu.Quantity;
 		    return (
 			    <div key={menu.Id }>
-				    {menu.Name}, Qty: {menu.Quantity} 
+				    {menu.Name}, кількість: {menu.Quantity} 
 			    </div>
 		    );
 	    }, this);
@@ -52,15 +52,15 @@ export class Popup extends React.Component<any, any> {
 
               <div className='foodList'>{myItems}</div>
 
-              <div style={{ height: '35px' }}>                  
-                    <hr />Total = ${(Math.round(total * 100) / 100).toFixed(2) } 
+              <div style={{ height: '35px'}}>                  
+                    <hr />Загальна сума = ${(Math.round(total * 100) / 100).toFixed(2) } 
               </div>
               <div style={{ height: '25px' }}>
-                        Tax = 0
+                        Податки = 0
               </div>
 
               <div className='grandSum'>
-                   Grand Total: ${(Math.round(total  * 100) / 100).toFixed(2) } 
+                   Сума до сплати: ${(Math.round(total  * 100) / 100).toFixed(2) } 
               </div>
                     
               <div className='payment'></div>

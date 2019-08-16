@@ -141,19 +141,20 @@
 }
 
 @media (min-width: 401px){
-	.popup_inner {
-		position: absolute;
-		left: 25%;
-		right: 25%;
-		top: 50px;
-		/*bottom: 25%;*/
-		padding: 10px;
-		background: white;
-		height: 455px;
-		width: 450px;
-		border: 2px solid #333;
-		border-radius: 5px 5px;
-	}
+    .popup_inner {
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        top: 50px;
+        /*bottom: 25%;*/
+        padding: 10px;
+        background: white;
+        height: 455px;
+        width: 450px;
+        border: 2px solid #333;
+        border-radius: 5px 5px;
+        font-weight: bold;
+    }
 
     .greenBtn {
         border: 1px solid #69854c;
@@ -168,12 +169,13 @@
 }
 
 @media (min-width: 300px) and (max-width: 400px) {
-		.popup_inner { 
-		padding: 65px 10px 5px 10px;
-		background: white;
-		height: 100%;
-		width: 100%;	
-	}
+    .popup_inner {
+        padding: 65px 10px 5px 10px;
+        background: white;
+        height: 100%;
+        width: 100%;
+        font-weight: bold;
+    }
     .greenBtn {
         border: 1px solid #69854c;
         background-color: #69854c;
@@ -203,6 +205,7 @@
 	height: 130px;
 	overflow-y: scroll;
 	margin-top: 10px;
+    
 }
 
 .grandSum {
